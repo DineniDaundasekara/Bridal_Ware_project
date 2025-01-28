@@ -3,13 +3,13 @@
 
 <br/>A bridal wear website built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) 
 <br/>FUNCTIONS
-<br/1.User Management System
-<br/2.Inventory Management System
-<br/3.Rental Management System
-<br/4.Order Management System
-<br/5.Product Management System
-<br/6.Feedback Management System
-<br/7.Employee Management System
+<br/>1.User Management System
+<br/>2.Inventory Management System
+<br/>/3.Rental Management System
+<br/>4.Order Management System
+<br/>/5.Product Management System
+<br/>/6.Feedback Management System
+<br/>/7.Employee Management System
 <br/>deliver a seamless and dynamic user experience
 <br/>The website features an elegant and interactive user interface designed with React.js, showcasing a curated collection of bridal attire.
  <br/>It incorporates real-time functionality and data-driven content powered by MongoDB for efficient storage and management of product details. 
