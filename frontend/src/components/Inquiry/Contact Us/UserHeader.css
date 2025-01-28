@@ -1,0 +1,63 @@
+#user-header-cont {
+    background-color: #400106;
+}
+
+#user-header-cont .navbar-nav .nav-link {
+    color: #A18D71; /* Set text color to #A18D71 */
+    font-weight: bold;
+}
+
+#user-header-cont .navbar-brand {
+    color: #A18D71; /* Set brand text color to #A18D71 if applicable */
+}
+
+#user-header-cont .nav-item {
+    position: relative;
+}
+
+#user-header-cont .nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: grey; /* Default color */
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width 0.3s ease; /* Transition effect */
+}
+
+#user-header-cont .navbar-brand img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+   
+}
+#user-header-cont .nav-item:hover::after {
+    width: 100%;
+}
+
+#user-header-cont .active-link::after {
+    background-color: black; /* Active color */
+}
+
+#user-header-cont .selected-link {
+    color: #A18D71; /* Set selected link text color to #A18D71 */
+}
+
+#user-header-cont .selected-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black; /* Bottom border color for selected link */
+}
+
+#user-header-cont .logout,
+#user-header-cont .login {
+    background-color: #400106;
+    color: white;
+    border: none;
+    font-weight: 650;
+}

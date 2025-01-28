@@ -1,0 +1,101 @@
+.container {
+  /* Your container styles */
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.carousel img {
+  height: 580px;
+  width: 300px; /* Use 100% width */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.customizationButton {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.customizationButton:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.quantitycount {
+  width: 70px;
+  text-align: center;
+  border: 1px solid #ced4da; /* Add a border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 5px; /* Add padding for spacing */
+  font-size: 16px; /* Increase font size */
+}
+.selected {
+  color: black; /* Set the color to black when selected */
+}
+
+.submitButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.submitButton:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.submittedMessage {
+  background-color: #4d4d4d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 47%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  
+}
+
+.review:nth-child(odd) {
+  margin-right: 50px;
+  margin-left: 12px;
+}
+
+.userName {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+.starIcon {
+  color: gold;
+  margin-left: 5px;
+}
+
+.reviewContent {
+  margin-top: 10px;
+}
+
+
+.fa-star{
+  background-color: black;
+  color: #000;
+  cursor: pointer;
+}
